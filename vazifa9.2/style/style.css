@@ -1,0 +1,370 @@
+/* rubik-regular - latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src:
+       url('../fonts/rubik-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/rubik-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* rubik-500 - latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src:
+       url('../fonts/rubik-v18-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/rubik-v18-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* rubik-700 - latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+       url('../fonts/rubik-v18-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/rubik-v18-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+
+
+
+body {
+  /* width: 1440px;
+background: #F6F6F9; */
+  font-family: 'Rubik', sans-serif;
+/* box-sizing: border-box; */
+}
+
+
+.one-header{
+  background-color:#F6F6F9 ;
+  }
+.container  {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+ 
+  padding: 0px, 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+ 
+}
+.site-logo{
+  width: 320px;
+  height: 40px;
+  left: 119px;
+  top: 44px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+ 
+
+
+}
+.site-menu {
+  width: 258px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  display: flex;
+  list-style-type: none;
+}
+.site-logo-link {
+width: 306px;
+height: 33px;
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+
+color: #295091;
+
+
+
+}
+.header-list{
+  width: 1200px;
+  height: 68px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  list-style-type: none;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+/*  
+  left: 119px;
+  top: 124px; */
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+}
+.header{
+  width: 1200px;
+ justify-content: space-between;
+  margin-top: 47px;
+  margin-bottom: 44px;
+margin-left: auto;
+margin-right: auto;
+  display: flex;
+  align-items: center;
+
+
+}
+.dollar {
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #285193;
+display: inline-block;
+}
+.header-list-item {
+  text-decoration: none;
+font-size: 19px;
+border-color: black;
+}
+.site-banner{
+  text-align: center; 
+  width: 1200px;
+  height: 99px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+height: 99px;
+left: 119px;
+top: 210px;
+
+background: url(image.png);
+
+
+border: 1px solid #E0E0E0;
+}
+.icons{
+  display: flex;
+  width: 294px;
+  /* margin-left: 410px; */
+  justify-content: space-between;
+}
+
+.search{
+  width: 38px;
+  height: 40px;
+  
+background: #FFFFFF;
+border-radius: 5px;
+}
+.group{
+  width: 65px;
+  height: 40px;
+  
+background: #FFFFFF;
+border-radius: 5px;
+}
+.vector{
+  width: 146px;
+  height: 40px;
+  
+background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+}
+.virus-information{
+  background-color:F6F6F9 ;
+  height: 133px;
+  list-style-type: none;
+  align-items: center;
+display: flex;
+justify-content: space-between;
+
+
+}
+.information{
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 1200px;
+}
+.korona{
+  width: 205px;
+  display: flex;
+  /* border-right:width: 2px;
+  height: 74px; */
+  
+  
+  /* background: #EB5569;; */
+}
+.span{
+  text-align: left;
+}
+.covid{
+  font-size: 20px;
+}
+.virus-korona{
+  margin-top: 30px;
+  /* align-items: center; */
+}
+.number{
+  font-size: 22px;
+  font-style: normal;
+}
+.end-div{
+  display: flex;
+}
+.end-ul{
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 1200px;
+}
+.end-list{
+  width: 386px;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-align: left;
+}
+.end-text{
+  
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+
+color: #202020;
+}
+.new{
+  display: flex;
+  justify-content:space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0px, 20px;
+  height: 91px;
+ align-items: center;
+  
+  background: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+  
+
+}
+.button-class{
+  width: 264px;
+height: 42px;
+
+
+/* ss */
+
+background: linear-gradient( #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+border-radius: 5px;
+}
+
+.new-paragraph{
+  width: 610px;
+height: 29px;
+
+margin-left: -150px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+
+.button-a{
+  text-decoration: none;
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+.one-div-ul{
+  flex-wrap: wrap;
+  display: flex;
+  list-style-type: none;
+}
+.one-div{
+  width: 783px;
+  flex-wrap: wrap;
+}
+.display{
+  width: 783px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.mini-div{
+  margin-left: 20px;
+  text-align: left;
+}
+
+.two-div-ul{
+  height: 500px;
+  background: #d3d3ee;
+border-radius: 5px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.big-div{
+  width: 1200px;
+  margin-top: 50px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: space-between; */
+}
+.two-div{
+  width: 386px;
+  
+
+}
+li{
+  text-align: left;
+}
+h3{
+  text-align: left;
+  margin-left: 40px
+}
+.end-button{
+  width: 211px;
+height: 42px;
+left: 414px;
+top: 2237px;
+
+background: #295093;
+border-radius: 5px;
+}
+.end-a{
+  text-decoration: none;
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+.gucci {
+  width: 300px;
+}

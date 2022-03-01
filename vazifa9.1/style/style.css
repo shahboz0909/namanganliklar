@@ -1,0 +1,36 @@
+.box-test {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(51, 255, 0);
+  box-shadow:
+              200px 0 rgb(200, 255, 0),
+              0 200px rgb(0, 0, 0),
+              200px 200px rgb(6, 72, 255),
+              -200px -200px rgb(255, 6, 6),
+              -200px 0 rgb(234, 6, 255),
+              0 -200px rgb(143, 95, 95),
+              200px -200px rgb(105, 81, 136),
+              -200px 200px rgb(80, 34, 16);
+transition: background-color 1s ease,
+            box-shadow 4s ease ;
+
+}
+.box-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-test:hover {
+  background-color: brown;
+  box-shadow:
+        200px 0 rgb(0, 0, 0),
+        0 200px rgb(230, 255, 4),
+       200px 200px rgb(255, 6, 6),
+      -200px -200px rgb(6, 118, 255),
+       -200px 0 rgb(94, 74, 96),
+        0 -200px rgb(242, 0, 255),
+       200px -200px rgb(0, 240, 204),
+        -200px 200px rgb(255, 72, 0);
+
+}
